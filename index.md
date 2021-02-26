@@ -1,4 +1,19 @@
-## Welcome to GitHub Pages
+# Documentation AlpineCloud
+
+AlpineCloud est le nom de projet d'une application web permettant de gérer un programme d'activité.
+
+## Stack technologique
+- [Quarkus](https://quarkus.io/)
+- JDK 11 (OpenJDK ou AdoptOpenJDK)
+- Build tool: Apache maven 3.6.3
+- IntelliJ IDEA
+
+## Github Repositories
+Le projet est composé de 3 réérentiels GIT:
+- alpinecloud-doc: documentation
+- alpinecloud-backend: serveur
+- alpinecloud-frontend: PWA (progressive web app)
+
 
 You can use the [editor on GitHub](https://github.com/alpinecloud/alpinecloud-doc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
