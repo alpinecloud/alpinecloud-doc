@@ -13,6 +13,7 @@ Le projet est composé de 3 réérentiels GIT:
 - alpinecloud-doc: documentation
 - alpinecloud-backend: serveur web
 - alpinecloud-frontend: PWA (progressive web app)
+
 ## alpinecloud-backend
 
 ### Modules maven
@@ -39,15 +40,36 @@ Dépend d'alpinecloud-service-impl
 ## packages fonctionnels
 
 ### Gestion des tenants
+alpinecloud.tenant
+
 ### Gestion des utilisateurs
+alpinecloud.user
+
 ### Telegram (envoi et réception)
+alpiencloud.telegram
+
 ### Email (envoi et réception)
+alpinecloud.email
+
 ### PDF / Word / Excel génération / extractions
+alpinecloud.gutenberg
+
 ### Intégration avec d'autres systèmes
+alpinecloud.integration
+
 ### Gestion du programme d'activités
-### Gestion des activités
+Proposition, validation des activités.
+
+alpincloud.activity
+
 ### Gestion des inscriptions
+Gestion des participants.
+
+alpinecloud.registration
+
 ### Préparation des activités
+alpinecloud.planning
+
 
 
 You can use the [editor on GitHub](https://github.com/alpinecloud/alpinecloud-doc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
