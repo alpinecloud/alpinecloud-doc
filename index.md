@@ -11,8 +11,43 @@ AlpineCloud est le nom de projet d'une application web permettant de gérer un p
 ## Github Repositories
 Le projet est composé de 3 réérentiels GIT:
 - alpinecloud-doc: documentation
-- alpinecloud-backend: serveur
+- alpinecloud-backend: serveur web
 - alpinecloud-frontend: PWA (progressive web app)
+## alpinecloud-backend
+
+### Modules maven
+
+#### alpinecloud-utils
+Ce module (jar) ne dépend d'aucun module du projet. Il dépend en revanche d'autre modules en dehors du projet.
+
+#### alpinecloud-domain
+Ce module (jar) contient les entités du projet.
+Il peut dépendre du module alpinecloud-utils.
+
+#### alpinecloud-service-api
+Interface des fonctionalités métier.
+Peut dépendre de alpinecloud-utils et alpinecloud-domain
+
+#### alpinecloud-service-impl
+Implémentation des interfaces métier.
+Peut dépendre de alpinecloud-utils, alpinecloud-domain et alpinecloud-service-api
+
+#### alpinecloud-web
+War. Contient l'api REST.
+Dépend d'alpinecloud-service-impl
+
+## packages fonctionnels
+
+### Gestion des tenants
+### Gestion des utilisateurs
+### Telegram (envoi et réception)
+### Email (envoi et réception)
+### PDF / Word / Excel génération / extractions
+### Intégration avec d'autres systèmes
+### Gestion du programme d'activités
+### Gestion des activités
+### Gestion des inscriptions
+### Préparation des activités
 
 
 You can use the [editor on GitHub](https://github.com/alpinecloud/alpinecloud-doc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
