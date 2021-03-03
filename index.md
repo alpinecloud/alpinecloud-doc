@@ -7,6 +7,11 @@ AlpineCloud est le nom de projet d'une application web permettant de gérer un p
 - JDK 11 (OpenJDK ou AdoptOpenJDK)
 - Build tool: Apache maven 3.6.3
 - IntelliJ IDEA
+- [Flyway](https://flywaydb.org/)
+- [JaVers](https://javers.org/)
+- [ElephantSQL](https://www.elephantsql.com/)
+- [Immutables.org](https://immutables.github.io/)
+- [jOOQ](https://www.jooq.org/)
 
 ## Github Repositories
 Le projet est composé de 3 réérentiels GIT:
@@ -29,6 +34,10 @@ Il peut dépendre du module alpinecloud-utils.
 #### alpinecloud-service-api
 Interface des fonctionalités métier.
 Peut dépendre de alpinecloud-utils et alpinecloud-domain
+
+#### alpinecloud-service-db
+Génération des tables
+Services PostgreSQL et ElephantSQL
 
 #### alpinecloud-service-impl
 Implémentation des interfaces métier.
